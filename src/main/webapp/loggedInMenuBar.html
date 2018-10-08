@@ -1,0 +1,29 @@
+<button id="b1" type="submit" form="form1" value="Submit" class="w3-button w3-round w3-border w3-border-teal" style="color:#008B8B"><b>Home</b></button>
+
+
+<button type="submit" form="searchForm" value="Search"  class=" material-icons w3-button w3-round w3-border w3-border-teal" style="float:right; color:#008B8B"><b>search</b></button>
+<input value="" form="searchForm" type="text" name="search"  style="float:right; width:300px; height:40px; margin-right:5;" class="w3-round w3-border w3-border-teal"/>
+
+<a href="post_Ad.jsp" value="Post Ad" class="w3-button w3-round w3-border w3-border-teal" style="color:#008B8B"><b>Post Ad</b></a>
+<!--<button type="submit" form="postAd" value="Post Ad" class="w3-button w3-round w3-border w3-border-teal" style="color:#008B8B"><b>Post Ad</b></button>-->
+<div class="w3-dropdown-hover">
+
+    <button type="submit" value="user" class="w3-button w3-round w3-border w3-border-teal" style="color:#008B8B"><b> ${user}</b></button>
+
+    <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <input type="submit" class="w3-bar-item w3-button" form="form_myprofile" value="My Profile" id="profile_button"/>
+        <input type="submit" class="w3-bar-item w3-button" form="form_myad" value="My Ads" id="ads_button"/>
+        <input type="submit" class="w3-bar-item w3-button" form="form_logout" value="Logout" id="logout_button"/>
+    </div>
+</div>
+<button type="submit" form="msg" value="message"  class=" material-icons w3-button w3-round w3-border w3-border-teal" style=" color:#008B8B"><b>message</b></button>
+
+
+<form action="recMsg" method="get" id="msg"></form>
+
+<form action="SearchAd" method="post" id="searchForm"></form>
+<form action="PostAd" method="get" id="postAd"></form>
+<form action="MyProfile" method="get" id="form_myprofile"></form>
+<form action="MyAds" method="get" id="form_myad"></form>
+<form action="UserFunctionality" method="get" id="form_logout"></form>
+<form action="myhome" method="post" id="form1"> </form>

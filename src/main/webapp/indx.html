@@ -1,0 +1,122 @@
+<html>
+<head>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <title>check</title>
+    <style>
+    .inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+        .inputfile + label {
+    font-size: 1.25em;
+    font-weight: 700;
+    color: black;
+    height:100px;
+    width:100px;
+    background-image: url("imageURL/6.png");
+     background-size: 100px 100px;
+    display: inline-block;
+}
+
+.inputfile:focus + label,
+.inputfile + label:hover {
+    background-color: red;
+}
+.inputfile + label {
+	cursor: pointer; /* "hand" cursor */
+}
+.inputfile:focus + label {
+	outline: 1px dotted #000;
+	outline: -webkit-focus-ring-color auto 5px;
+}
+.inputfile + label * {
+	pointer-events: none;
+}
+    </style>
+
+</head>
+<body>
+
+
+<a   href=""   style="visibility:hidden;" class="material-icons w3-button">bookmark</a>
+
+<a href="" class="material-icons w3-button">delete</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table>
+    <tr><td>
+<input class="inputfile" type="file" name="file" id="file"  />
+<label for="file"></label>
+    </td>><td>
+<img src="imageURL/6.png" id = "message1" style="height:100px; width:100px; align:top;"></img>
+        <div id="message">check</div>
+    </td></tr>
+</table>
+<input type="file" name="file" id="profile-img1">
+<img src="" id="profile-img-tag" width="200px" />
+
+
+<script type="text/javascript">
+    function readURL(input) {
+        if (input.files && input.files[0]) {
+            var reader = new FileReader();
+
+            reader.onload = function (e) {
+                $('#profile-img-tag').attr('src', e.target.result);
+                 $('#file').css('background-image', 'url("' + reader.result + '")');
+              //  document.getElementById("file").style.backgroundImage = "url('')";
+            }
+            reader.readAsDataURL(input.files[0]);
+        }
+    }
+   // $("#file").change(function(){
+     //   readURL(this);
+    //});
+
+
+
+
+    $('#file').change(function () {
+            var file = this.files[0];
+            var reader = new FileReader();
+            reader.onloadend = function () {
+               $('#file').css('background-image', 'url("' + reader.result + '")');
+            }
+            if (file) {
+                reader.readAsDataURL(file);
+            } else {
+            }
+        });
+</script>
+</body>
+</html>
