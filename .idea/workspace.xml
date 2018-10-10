@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="560e2025-cf46-460d-a2d2-9710e8c676b3" name="Default" comment="" />
+    <list default="true" id="560e2025-cf46-460d-a2d2-9710e8c676b3" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/mywebproject.iml" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,8 +60,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="147" selection-start-line="147" selection-end-line="147" />
+            <state relative-caret-position="17">
+              <caret line="80" column="16" lean-forward="true" selection-start-line="80" selection-start-column="16" selection-end-line="80" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -67,11 +69,8 @@
       <file leaf-file-name="MyHome.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/onlinemarketplace/MyHome.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
+            <state relative-caret-position="340">
               <caret line="20" selection-start-line="20" selection-end-line="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -79,7 +78,7 @@
       <file leaf-file-name="MyProfile.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/onlinemarketplace/MyProfile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="850">
+            <state relative-caret-position="969">
               <caret line="57" column="91" selection-start-line="57" selection-start-column="45" selection-end-line="57" selection-end-column="91" />
             </state>
           </provider>
@@ -88,11 +87,8 @@
       <file leaf-file-name="AdFunctions.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/onlinemarketplace/AdFunctions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1360">
+            <state relative-caret-position="1564">
               <caret line="92" column="42" selection-start-line="92" selection-start-column="39" selection-end-line="92" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -100,7 +96,7 @@
       <file leaf-file-name="MyAds.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/onlinemarketplace/MyAds.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1020">
+            <state relative-caret-position="1139">
               <caret line="67" column="168" selection-start-line="67" selection-start-column="168" selection-end-line="67" selection-end-column="168" />
             </state>
           </provider>
@@ -125,6 +121,9 @@
       <find>w3-button</find>
       <find>postAd</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -194,12 +193,13 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="22" />
     <option name="y" value="39" />
     <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -242,13 +242,13 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML4 File" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../HEROKU/test/ComIT-Final-Project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -355,12 +355,12 @@
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.00777605" />
-      <window_info anchor="bottom" id="Version Control" order="2" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.4362657" />
+      <window_info anchor="bottom" id="Version Control" order="2" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.4362657" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.32952693" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.20684293" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.20995334" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.0" />
       <window_info id="UI Designer" order="1" />
@@ -631,11 +631,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/onlinemarketplace/MyHome.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
+        <state relative-caret-position="340">
           <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -648,14 +645,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/onlinemarketplace/MyProfile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
+        <state relative-caret-position="969">
           <caret line="57" column="91" selection-start-line="57" selection-start-column="45" selection-end-line="57" selection-end-column="91" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/onlinemarketplace/MyAds.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
+        <state relative-caret-position="1139">
           <caret line="67" column="168" selection-start-line="67" selection-start-column="168" selection-end-line="67" selection-end-column="168" />
         </state>
       </provider>
@@ -669,11 +666,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/onlinemarketplace/AdFunctions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1360">
+        <state relative-caret-position="1564">
           <caret line="92" column="42" selection-start-line="92" selection-start-column="39" selection-end-line="92" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -741,8 +735,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="147" selection-start-line="147" selection-end-line="147" />
+        <state relative-caret-position="17">
+          <caret line="80" column="16" lean-forward="true" selection-start-line="80" selection-start-column="16" selection-end-line="80" selection-end-column="16" />
         </state>
       </provider>
     </entry>
