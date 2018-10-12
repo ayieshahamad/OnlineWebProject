@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="560e2025-cf46-460d-a2d2-9710e8c676b3" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/mywebproject.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -57,11 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="80" column="16" lean-forward="true" selection-start-line="80" selection-start-column="16" selection-end-line="80" selection-end-column="16" />
+            <state relative-caret-position="408">
+              <caret line="103" column="17" lean-forward="true" selection-start-line="103" selection-start-column="17" selection-end-line="103" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -69,17 +69,26 @@
       <file leaf-file-name="MyHome.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/onlinemarketplace/MyHome.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="17">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyProfile.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/onlinemarketplace/MyProfile.java">
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="969">
-              <caret line="57" column="91" selection-start-line="57" selection-start-column="45" selection-end-line="57" selection-end-column="91" />
+            <state relative-caret-position="238">
+              <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IndexServlet.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/onlinemarketplace/IndexServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-339">
+              <caret line="32" column="34" lean-forward="true" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -87,7 +96,7 @@
       <file leaf-file-name="AdFunctions.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/onlinemarketplace/AdFunctions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1564">
+            <state relative-caret-position="1360">
               <caret line="92" column="42" selection-start-line="92" selection-start-column="39" selection-end-line="92" selection-end-column="42" />
             </state>
           </provider>
@@ -96,7 +105,7 @@
       <file leaf-file-name="MyAds.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/onlinemarketplace/MyAds.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1139">
+            <state relative-caret-position="1020">
               <caret line="67" column="168" selection-start-line="67" selection-start-column="168" selection-end-line="67" selection-end-column="168" />
             </state>
           </provider>
@@ -193,46 +202,57 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="22" />
-    <option name="y" value="39" />
+    <option name="y" value="202" />
     <option name="width" value="1346" />
-    <option name="height" value="688" />
+    <option name="height" value="525" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="mywebproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Online Web Project" type="462c0819:PsiDirectoryNode" />
+              <item name="OnlineWebProject" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mywebproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Online Web Project" type="462c0819:PsiDirectoryNode" />
+              <item name="OnlineWebProject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mywebproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Online Web Project" type="462c0819:PsiDirectoryNode" />
+              <item name="OnlineWebProject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mywebproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Online Web Project" type="462c0819:PsiDirectoryNode" />
+              <item name="OnlineWebProject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mywebproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Online Web Project" type="462c0819:PsiDirectoryNode" />
+              <item name="OnlineWebProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="onlinemarketplace" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mywebproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineWebProject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
@@ -241,9 +261,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -346,7 +365,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="22" y="39" width="1346" height="688" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="bottom" id="TODO" order="10" />
@@ -354,13 +374,13 @@
       <window_info id="Image Layers" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.00777605" />
+      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.0075642965" />
       <window_info anchor="bottom" id="Version Control" order="2" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.4362657" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.4362657" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.32952693" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.20995334" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.20726173" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.0" />
       <window_info id="UI Designer" order="1" />
@@ -538,20 +558,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlinemarketplace/IndexServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1190">
-          <caret line="77" column="9" selection-start-line="41" selection-start-column="8" selection-end-line="77" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/onlinemarketplace/SearchAd.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -629,13 +635,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlinemarketplace/MyHome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/welcome.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -645,14 +644,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/onlinemarketplace/MyProfile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
+        <state relative-caret-position="850">
           <caret line="57" column="91" selection-start-line="57" selection-start-column="45" selection-end-line="57" selection-end-column="91" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/onlinemarketplace/MyAds.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1139">
+        <state relative-caret-position="1020">
           <caret line="67" column="168" selection-start-line="67" selection-start-column="168" selection-end-line="67" selection-end-column="168" />
         </state>
       </provider>
@@ -666,7 +665,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/onlinemarketplace/AdFunctions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1564">
+        <state relative-caret-position="1360">
           <caret line="92" column="42" selection-start-line="92" selection-start-column="39" selection-end-line="92" selection-end-column="42" />
         </state>
       </provider>
@@ -726,6 +725,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="103" column="17" lean-forward="true" selection-start-line="103" selection-start-column="17" selection-end-line="103" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -733,10 +739,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlinemarketplace/MyHome.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="80" column="16" lean-forward="true" selection-start-line="80" selection-start-column="16" selection-end-line="80" selection-end-column="16" />
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/onlinemarketplace/IndexServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-339">
+          <caret line="32" column="34" lean-forward="true" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
         </state>
       </provider>
     </entry>
