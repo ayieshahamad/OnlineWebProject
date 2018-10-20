@@ -57,6 +57,13 @@
       <artifactId>javax.mail</artifactId>
       <version>1.6.0</version>
     </dependency>
+    <!--
+    <dependency>
+      <groupId>com.github.jsimone</groupId>
+      <artifactId>webapp-runner</artifactId>
+      <version>8.0.24.0</version>
+    </dependency>
+    -->
   </dependencies>
 
   <build>
@@ -72,6 +79,7 @@
             <source>1.7</source>
             <target>1.7</target>
             <showWarnings>true</showWarnings>
+
           </configuration>
         </plugin>
         <plugin>
@@ -83,7 +91,9 @@
             <contextReloadable>true</contextReloadable>
           </configuration>
         </plugin>
+
         <!-- above code is from tutorial -->
+
         <plugin>
           <artifactId>maven-clean-plugin</artifactId>
           <version>3.0.0</version>
@@ -163,7 +173,7 @@
                 </configuration>
             </execution>
         </executions>
-    </plugin>
+        </plugin>
       </plugins>
     </pluginManagement>
   </build>
