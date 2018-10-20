@@ -117,7 +117,7 @@ public class Database {
             while (resultSet.next()) {
                 // Get the Database name, which is at position 1
                 //System.out.println(databaseName);
-                if(resultSet.getString(1).equalsIgnoreCase(databaseName) ){
+                if(resultSet.getString(1).equalsIgnoreCase(databaseName+"123") ){
                     databaseExist = true;
                     System.out.println("exists");
                 }
@@ -125,7 +125,8 @@ public class Database {
             resultSet.close();
 
             //if Database doesnot exist, create a new one
-            if(databaseExist == false){
+            if(databaseExist == false)
+            {
 
                 System.out.println("Creating Database...");
                 //stmt = conn.createStatement();
