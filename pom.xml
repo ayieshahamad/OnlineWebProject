@@ -57,13 +57,20 @@
       <artifactId>javax.mail</artifactId>
       <version>1.6.0</version>
     </dependency>
-    <!--
-    <dependency>
-      <groupId>com.github.jsimone</groupId>
-      <artifactId>webapp-runner</artifactId>
-      <version>8.0.24.0</version>
-    </dependency>
-    -->
+      <dependency>
+          <groupId>com.github.jsimone</groupId>
+          <artifactId>webapp-runner</artifactId>
+          <version>9.0.11.0</version>
+      </dependency>
+      <!-- Thanks for using https://jar-download.com -->
+
+      <!--
+      <dependency>
+        <groupId>com.github.jsimone</groupId>
+        <artifactId>webapp-runner</artifactId>
+        <version>8.0.24.0</version>
+      </dependency>
+      -->
   </dependencies>
 
   <build>
@@ -164,10 +171,10 @@
                 <configuration>
                     <artifactItems>
                         <artifactItem>
-                            <groupId>com.github.jsimone</groupId>
-                            <artifactId>webapp-runner</artifactId>
-                            <version>8.0.24.0</version>
-                            <destFileName>webapp-runner.jar</destFileName>
+                          <groupId>com.github.jsimone</groupId>
+                          <artifactId>webapp-runner</artifactId>
+                          <version>9.0.11.0</version>
+                          <destFileName>webapp-runner.jar</destFileName>
                         </artifactItem>
                     </artifactItems>
                 </configuration>
