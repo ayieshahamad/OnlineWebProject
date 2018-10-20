@@ -57,14 +57,15 @@
       <artifactId>javax.mail</artifactId>
       <version>1.6.0</version>
     </dependency>
+
+      <!-- Thanks for using https://jar-download.com -->
+
+      <!--
       <dependency>
           <groupId>com.github.jsimone</groupId>
           <artifactId>webapp-runner</artifactId>
           <version>9.0.11.0</version>
       </dependency>
-      <!-- Thanks for using https://jar-download.com -->
-
-      <!--
       <dependency>
         <groupId>com.github.jsimone</groupId>
         <artifactId>webapp-runner</artifactId>
