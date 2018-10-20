@@ -3,6 +3,8 @@ package com.onlinemarketplace.database;
 import com.onlinemarketplace.model.User;
 import com.onlinemarketplace.util.BCrypt;
 
+import java.net.URI;
+import java.net.URISyntaxException;
 import java.sql.*;
 import java.util.Date;
 
@@ -18,7 +20,27 @@ public class Database {
     //  Database credentials
     static final String USER = "root";
     static final String PASS = "Ayesha1234?";
-    public static final String databaseName = "ONLINE_MARKET_PLACE";
+    public static final String databaseName = "heroku_5a6a259ab611f6f";//'"ONLINE_MARKET_PLACE";//heroku3
+    public static final String CLEARDB_DATABASE_URL = "mysql://b45875538cf6f7:f2c3677f@us-cdbr-iron-east-01.cleardb.net/heroku_5a6a259ab611f6f?reconnect=true";
+    //heroku URL
+    //mysql://b45875538cf6f7:f2c3677f@us-cdbr-iron-east-01.cleardb.net/heroku_5a6a259ab611f6f?reconnect=true
+    //help : https://scotch.io/@phalconVee/using-mysql-on-heroku
+
+    /* Everything after the @ symbol until the / is the DB_HOST, us-cdbr-iron-east-05.cleardb.net
+    Everything after / until ? is DB_DATABASE, heroku_f677d75e73d39a7
+    The string after the // until : is the DB_USERNAME, b5bf52783a17e5
+    The string between : and @ is the DB_PASSWORD, 90ac0673
+
+
+    private static Connection getConnection() throws URISyntaxException, SQLException {
+    URI dbUri = new URI(System.getenv("CLEARDB_DATABASE_URL"));
+
+    String username = dbUri.getUserInfo().split(":")[0];
+    String password = dbUri.getUserInfo().split(":")[1];
+    String dbUrl = "jdbc:mysql://" + dbUri.getHost() + dbUri.getPath();
+
+    return DriverManager.getConnection(dbUrl, username, password);
+}*/
 
     private Connection conn ;
     //private Statement stmt ;
@@ -35,15 +57,26 @@ public class Database {
     public Connection getConn() {
         return conn;
     }
+    private static Connection getConnectionClearDB() throws URISyntaxException, SQLException {
+        //URI dbUri = new URI(System.getenv(CLEARDB_DATABASE_URL));
 
+        String username = "b45875538cf6f7";//dbUri.getUserInfo().split(":")[0];
+        String password = "f2c3677f";//dbUri.getUserInfo().split(":")[1];
+        String dbUrl = "jdbc:mysql://" +"us-cdbr-iron-east-01.cleardb.net/heroku_5a6a259ab611f6f";// dbUri.getHost() + dbUri.getPath();
+        System.out.println(dbUrl);
+        return DriverManager.getConnection(dbUrl, username, password);
+    }
     public boolean startDB_Connection(){
         try {
             //STEP 2: Register JDBC driver
             Class.forName("com.mysql.cj.jdbc.Driver");//com.mysql.cj.jdbc.Driver//com.mysql.jdbc.Driver (previous)
             //STEP 3: Open a connection
             System.out.println("Connecting to Database...");
-            conn = DriverManager.getConnection(DB_URL, USER, PASS);/////////////////////////connection  nahi bana
-            //stmt = conn.createStatement();
+
+            //localhost
+            //conn = DriverManager.getConnection(DB_URL, USER, PASS);/////////////////////////connection  nahi bana
+            //heroku
+            conn = getConnectionClearDB();
         }catch(SQLException se){
             //Handle errors for JDBC
             se.printStackTrace();
@@ -96,10 +129,12 @@ public class Database {
 
                 System.out.println("Creating Database...");
                 //stmt = conn.createStatement();
+                //heroku2
                 String sql = "CREATE DATABASE "+databaseName;
                 Statement stmt = conn.createStatement();
-                stmt.executeUpdate(sql);
-                System.out.println("Database created successfully...");
+//                stmt.executeUpdate(sql);
+//                System.out.println("Database created successfully...");
+
                 //creating user table
                 sql = "CREATE TABLE "+databaseName+".UserProfile\n" +
                         "(\n" +
