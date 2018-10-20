@@ -20,7 +20,7 @@ public class Database {
     //  Database credentials
     static final String USER = "root";
     static final String PASS = "Ayesha1234?";
-    public static final String databaseName = "heroku_5a6a259ab611f6f";//'"ONLINE_MARKET_PLACE";//heroku3
+    public static final String databaseName = "ONLINE_MARKET_PLACE";//"heroku_5a6a259ab611f6f";//'"ONLINE_MARKET_PLACE";//heroku3
     public static final String CLEARDB_DATABASE_URL = "mysql://b45875538cf6f7:f2c3677f@us-cdbr-iron-east-01.cleardb.net/heroku_5a6a259ab611f6f?reconnect=true";
     //heroku URL
     //mysql://b45875538cf6f7:f2c3677f@us-cdbr-iron-east-01.cleardb.net/heroku_5a6a259ab611f6f?reconnect=true
@@ -74,9 +74,9 @@ public class Database {
             System.out.println("Connecting to Database...");
 
             //localhost
-            //conn = DriverManager.getConnection(DB_URL, USER, PASS);/////////////////////////connection  nahi bana
+            conn = DriverManager.getConnection(DB_URL, USER, PASS);/////////////////////////connection  nahi bana
             //heroku
-            conn = getConnectionClearDB();
+            //conn = getConnectionClearDB();
         }catch(SQLException se){
             //Handle errors for JDBC
             se.printStackTrace();
@@ -117,7 +117,7 @@ public class Database {
             while (resultSet.next()) {
                 // Get the Database name, which is at position 1
                 //System.out.println(databaseName);
-                if(resultSet.getString(1).equalsIgnoreCase(databaseName+"123") ){
+                if(resultSet.getString(1).equalsIgnoreCase(databaseName) ){
                     databaseExist = true;
                     System.out.println("exists");
                 }

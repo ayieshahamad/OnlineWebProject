@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="560e2025-cf46-460d-a2d2-9710e8c676b3" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/onlinemarketplace/database/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/onlinemarketplace/database/Database.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/onlinemarketplace/dao/AdDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/onlinemarketplace/dao/AdDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/onlinemarketplace/dao/MessageDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/onlinemarketplace/dao/MessageDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/onlinemarketplace/dao/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/onlinemarketplace/dao/UserDAO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/onlinemarketplace/database/Database.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/onlinemarketplace/database/Database.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -40,11 +38,12 @@
       <file leaf-file-name="Database.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/onlinemarketplace/database/Database.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="86">
-              <caret line="119" column="76" selection-start-line="119" selection-start-column="76" selection-end-line="119" selection-end-column="76" />
+            <state relative-caret-position="524">
+              <caret line="311" column="5" lean-forward="true" selection-start-line="311" selection-start-column="5" selection-end-line="311" selection-end-column="5" />
               <folding>
                 <element signature="e#1118#1119#0" expanded="true" />
                 <element signature="e#1145#1146#0" expanded="true" />
+                <element signature="method#getConnectionClearDB#0;class#Database#0" />
                 <element signature="method#closeDB_Connection#0;class#Database#0" />
               </folding>
             </state>
@@ -408,7 +407,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="bottom" id="TODO" order="10" />
@@ -419,11 +417,11 @@
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.006051437" />
       <window_info anchor="bottom" id="Version Control" order="2" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.08319739" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.0065252855" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.42577487" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.30181542" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.15431164" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.0" />
       <window_info id="UI Designer" order="1" />
@@ -800,11 +798,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/onlinemarketplace/database/Database.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="119" column="76" selection-start-line="119" selection-start-column="76" selection-end-line="119" selection-end-column="76" />
+        <state relative-caret-position="524">
+          <caret line="311" column="5" lean-forward="true" selection-start-line="311" selection-start-column="5" selection-end-line="311" selection-end-column="5" />
           <folding>
             <element signature="e#1118#1119#0" expanded="true" />
             <element signature="e#1145#1146#0" expanded="true" />
+            <element signature="method#getConnectionClearDB#0;class#Database#0" />
             <element signature="method#closeDB_Connection#0;class#Database#0" />
           </folding>
         </state>
